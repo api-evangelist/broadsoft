@@ -1,8 +1,26 @@
 aid: broadsoft
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadsoft.png
 name: Broadsoft
-description: 'Broadsoft is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  BroadSoft was a cloud unified-communications (UCaaS) and VoIP software provider whose BroadWorks and
+  BroadCloud platforms powered hosted PBX, calling, messaging, and contact-center services for telecom
+  carriers and service providers worldwide. Its developer surface centered on the Xtended Services
+  Interface (XSI) and OCI (Open Client Interface) provisioning APIs. Cisco acquired BroadSoft in February
+  2018 and folded the products into its Collaboration portfolio; the platform now ships as Cisco
+  BroadWorks. The independent developer presence has been retired — www.broadsoft.com 301-redirects to
+  cisco.com — so this profile carries no standalone live API surface. Originally surfaced as a
+  bessemer-venture-partners portfolio company and added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/broadsoft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,22 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: cisco
+x-acquired-date: '2018-02-01'
+x-status: acquired
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Unknown
+- Unified Communications
+- UCaaS
+- VoIP
+- Telecommunications
+- Cloud Communications
+- Contact Center
+- Acquired
+- Cisco
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/broadsoft-domain-security.yml
 - type: Website
   url: https://www.broadsoft.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

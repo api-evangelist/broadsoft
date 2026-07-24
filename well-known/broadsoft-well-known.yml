@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: probed
+source: live probes of https://www.broadsoft.com/.well-known/*
+note: >-
+  www.broadsoft.com 301-redirects to cisco.com (BroadSoft was acquired by Cisco
+  in 2018). No .well-known discovery documents are served; probes follow the
+  redirect and receive 404/500. Recorded for auditability. No 200 responses, so
+  no raw files were saved and no WellKnown scoring pointer is wired.
+host: https://www.broadsoft.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 500
+- path: /.well-known/oauth-authorization-server
+  status: 500
+- path: /.well-known/api-catalog
+  status: 500
+- path: /.well-known/ai-plugin.json
+  status: 500
