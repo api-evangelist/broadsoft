@@ -1,0 +1,31 @@
+# Front Door AI Index — broadsoft — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: broadsoft
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.broadsoft.com
+  final_host: www.cisco.com
+  ownership: own
+  owner: broadsoft
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 35
+  host_score: 35
+  density: 25.45
+  words: 1375
+  tiers:
+    agentic: 10
+    core: 25
+    model: 0
+  ambiguous: 11
+  top_terms:
+    AI: 25
+    agent: 9
+    AI agent: 5
+    AI assistant: 3
+    agentic: 2
+    intelligence: 1
+    predictive: 1
