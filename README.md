@@ -64,6 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Broadsoft is a company surfaced as a portfolio company of bessemer-venture-partners and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: bessemer-venture-partners — https://www.broadsoft.com/
+BroadSoft was a cloud unified-communications (UCaaS) and VoIP software provider whose BroadWorks and BroadCloud platforms powered hosted PBX, calling, messaging, and contact-center services for telecom carriers and service providers worldwide. Its developer surface centered on the Xtended Services Interface (XSI) and OCI (Open Client Interface) provisioning APIs. Cisco acquired BroadSoft in February 2018 and folded the products into its Collaboration portfolio; the platform now ships as Cisco BroadWorks. The independent developer presence has been retired — www.broadsoft.com 301-redirects to cisco.com — so this profile carries no standalone live API surface. Originally surfaced as a bessemer-venture-partners portfolio company and added to the API Evangelist network for enrichment.
+
+**Areas:** Company · Unified Communications · UCaaS · VoIP · Telecommunications · Cloud Communications · Contact Center · Acquired · Cisco
+
+## Broadsoft on APIs.io (historical record)
+
+Everything profiled for Broadsoft is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/broadsoft/](https://apis.io/providers/broadsoft/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Broadsoft Domain Security](https://apis.io/security/broadsoft/broadsoft-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.broadsoft.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Broadsoft: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/broadsoft/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
